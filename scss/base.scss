@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.arrow {
+	padding-left: 5px;
+	height: 11px;
+}
+
+.more {
+	text-decoration: none;
+	color: $red;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	font-family: $montserrat;
+}

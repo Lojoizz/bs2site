@@ -1,0 +1,26 @@
+.footer {
+	&-cont {
+		padding: 35px 0;
+		border-top: 1px solid $grey;
+	}
+
+	&__socials {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__p {
+		font-size: 13px;
+		color: $grey;
+		font-family: $openSans;
+	}
+}
+
+.socials {
+	height: 16px;
+}
+
+.footer__p-cont {
+	display: flex;
+	justify-content: flex-end;
+}

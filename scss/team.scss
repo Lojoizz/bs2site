@@ -1,0 +1,70 @@
+.team-cont {
+
+}
+
+.team-text {
+	margin-bottom: 40px;
+	&__h2 {
+		font-size: 32px;
+		font-weight: 700;
+		font-family: $montserrat;
+		color: $blue;
+		text-transform: uppercase;
+
+		margin-bottom: 5px;
+	}
+
+	&__p {
+		color: $grey;
+		font-family: $openSans;
+	}
+}
+
+.team-man {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 55px;
+
+	&__cont {
+		width: 285px;
+		display: flex;
+		align-items: center;
+
+	}
+
+	&__h4 {
+		text-transform: uppercase;
+		color: $blue;
+		font-family: $montserrat;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 22px;
+		margin-bottom: 2px;
+	}
+
+	&__img {
+		margin-right: 15px;
+	}
+
+	&__p-red {
+		color: $red;
+		font-size: 14px;
+		font-family: $openSans;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+
+	&__p-grey {
+		color: $grey;
+		font-size: 14px;
+		line-height: 20px;
+		font-family: $openSans;
+	}
+}
+
+.team-cont__more {
+	display: flex;
+	justify-content: flex-end;
+	
+	margin-bottom: 65px;
+}

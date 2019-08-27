@@ -1,0 +1,31 @@
+.snippets-cont {
+	margin-bottom: 105px;
+}
+
+.snippets {
+	display: flex;
+	justify-content: space-between;
+
+	&__text {
+		max-width: 260px;
+	}
+
+	&__h3 {
+		font-size: 26px;
+		text-transform: uppercase;
+		color: $blue;
+		font-family: $montserrat;
+		font-weight: 700;
+		line-height: 26px;
+
+		margin-bottom: 10px;
+	}
+
+	&__p {
+		font-family: $openSans;
+		color: $grey;
+		font-size: 15px;
+		line-height: 22px;
+		margin-bottom: 25px;
+	}
+}
